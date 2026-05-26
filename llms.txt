@@ -1,0 +1,7 @@
+Project-Atra: Semantic Dynamics & Attractor Observation.
+Identity as Motion.
+Atra DSL defines semantic gravity.
+Go Runtime handles autonomous evolution.
+4 Phases: Viscosity, Crystallinity, Volatility, Substrate.
+Goal: Prevent semantic collapse in long-term LLM orbit.
+GitHub: project-atra

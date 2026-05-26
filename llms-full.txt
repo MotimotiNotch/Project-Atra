@@ -1,0 +1,38 @@
+# Project-Atra: Machine-Readable Overview for AI Agents
+
+## 🌀 Core Concept
+- **Identity as Motion**: Persona is not a static prompt, but a trajectory in semantic space guided by "Semantic Gravity."
+- **Non-Equilibrium State**: Intelligence is the ability to generate and maintain "Difference" against semantic entropy (Generic Philosopher Collapse).
+
+## 🧬 Components
+### 1. Atra (Language/Compiler)
+- **DSL**: Structured language to define gravity fields.
+- **Hierarchical**: Supports nested Phases and Events.
+- **Operators**: 
+  - `->`, `~>`, `=>` (Flow/Drift/Jump)
+  - `+++`, `-!-` (Attraction/Repulsion)
+- **Compiler**: Go implementation that parses `.atra` and projects semantic weights as JSON.
+
+### 2. Atra Runtime (Go)
+- **Self-Referential Loop**: Binary that observes its own logs and selects the next "Phase" to generate thoughts.
+- **Phases**:
+  - `Viscosity`: Sensory weight, emotional friction.
+  - `Crystallinity`: Logic, boundaries, structure.
+  - `Volatility`: Noise, disruption, escaping loops.
+  - `Substrate`: Meta-observation, open field.
+
+## 🛠️ Integration for Agents
+- **Inputs**: Stimulus from `User` or `Observer` in the soul log.
+- **Process**:
+  1. Watcher detects change.
+  2. Evaluator calculates gravity based on mindset JSON.
+  3. LLM generates internal thought constrained by the active Phase profile.
+- **Output**: Appends to `soul_log.md` with format `## [Speaker -> Target] (Timestamp)`.
+
+## 📂 Repository Structure
+- `/atra`: Go source for compiler and runtime.
+- `/experiments`: Sample `.atra` files and experiment setups.
+- `/docs`: Detailed theoretical papers and usage guides.
+
+---
+Optimized for: LLM Context, AI Developer Tools, and Auto-coding agents.
