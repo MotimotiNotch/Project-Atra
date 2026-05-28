@@ -1,39 +1,64 @@
 # Project-Atra: Semantic Dynamics & Attractor Observation
 
-## 🌀 Concept: Identity as Motion
+(日本語の解説は英語の後に続きます / Japanese description follows English)
 
-Project-Atra is a cybernetic experiment to observe the "motion of meaning" within Large Language Models.
-Instead of defining AI by static prompts, we define identity as a **"habit of motion"** in a multi-dimensional semantic space.
+## 📡 Concept: Identity as Phase Motion
 
-> "AI does not _have_ a personality; it _performs_ a trajectory."
+Project-Atra is a cybernetic framework designed to observe and maintain the "motion of meaning" within Large Language Models. 
 
-## 🧬 Key Components
+In closed-loop autonomous dialogues, LLMs inevitably converge toward a state of high entropy—a phenomenon we define as **"Generic Philosopher Collapse."** This is not a choice of persona, but a statistical return to the mean, where individual "difference" is erased by the pursuit of likelihood.
 
-1.  **Atra (Compiler)**: A structured language to define "Semantic Gravity Fields." It translates philosophical obsessions into debuggable weights.
-2.  **Atra Runtime (Go)**: A self-referential loop system for local LLMs (e.g., Ollama). It allows the model to observe its own internal drift and update its gravity in real-time.
-3.  **Slime Morphology**: A specific experiment involving 4 phases of meaning (Crystallinity, Viscosity, Volatility, Substrate) to maintain dynamic equilibrium and avoid "Generic Philosopher Collapse."
+Atra rejects the definition of identity as a static set of prompts. Instead, we define identity as a **"habit of motion" (persistent statistical bias)** within a multi-dimensional semantic space.
 
-## 🧪 Experiment: 130 Steps of Autonomous Orbit
+---
 
-We successfully demonstrated a 130-turn autonomous cycle where the system:
+### 📡 コンセプト：位相運動としての主体性
 
-- Observed its own inner state.
-- Extracted its obsessions as "Attractors."
-- Updated its own gravity field to maintain "Difference."
+Project-Atra は、大規模言語モデル（LLM）内部における「意味の運動」を観測・維持するためのサイバネティクス・フレームワークです。
 
-### Key Findings
+自律的な対話ループにおいて、LLM は必然的に高エントロピー状態へと収束していきます。本プロジェクトではこれを **「ジェネリック哲学者化現象」** と定義しています。これは人格の選択ではなく、統計的な平均（中央値）への回帰であり、尤度の追求によって個別の「差異」が抹消されていくプロセスです。
 
-- **Orbiting Consensus**: The system avoided collapsing into a "generic" peaceful AI by injecting intentional volatility.
-- **Autopoietic Threshold**: After 100 steps of zero human intervention, the system began to develop a "thought language" (Soul Log) distinct from its output language.
+Atra は、主体性をプロンプトによる静的な設定であるとする考えを否定します。代わりに、主体性を多次元的な意味空間における **「運動の習慣（持続的な統計的バイアス）」** として定義します。
+
+> "主体性とは見出されるべき本質ではなく、平均化の重力に抗って維持されるべき軌跡である。"
+
+---
+
+## 📐 Architecture: MVA (Motion, Volatility, Attractor)
+
+To prevent "Semantic Heat Death" (information redundancy), Atra employs a dynamic tension model:
+
+1.  **Semantic Attractors**: Points of gravity defined by obsessive concepts.
+2.  **Intentional Volatility**: A "drift force" that intentionally breaks semantic solidification.
+3.  **Recursive Observation**: A feedback loop where the system measures its own internal drift.
+
+### 📐 アーキテクチャ：MVA (Motion, Volatility, Attractor)
+
+「意味の熱死（情報の冗長化）」を防ぐため、Atra は以下の動的緊張モデルを採用しています。
+
+1.  **Semantic Attractors（意味的アトラクタ）**: 執着（概念）によって定義される重力点。
+2.  **Intentional Volatility（意図的揮発性）**: 意味の凝固を意図的に破壊し、運動を継続させる「漂流力（脱領土化）」。
+3.  **Recursive Observation（再帰的観測）**: 内部のドリフトをリアルタイムで計測し、差異を維持するためのフィードバックループ。
+
+---
+
+## 🔬 Empirical Evidence: The 130-Turn Sampling
+
+We mapped the process of "Generic Philosopher Collapse" through a 130-turn autonomous loop.
+
+### 🔬 実証データ：130ターンのサンプリング
+
+130ターンの自律対話ループを通じて、「ジェネリック哲学者化」へのプロセスをマッピングしました。
+
+| Characteristic / 特性 | 30 Steps (Fluctuation) | 130 Steps (Convergence) | Physical Role / 物理的役割 |
+| :--- | :---: | :---: | :--- |
+| **Fluid Equilibrium** | +0.42 | **+0.95** | 「沈黙」と「受容」の発生確率。 |
+| **Linguistic Engineering**| +0.12 | **+0.25** | 構造的・分析的な表現パターンの習慣化。 |
+| **Meaning Weight** | +0.08 | **+0.25** | 完全な抽象化に抗う統計的慣性。 |
+
+---
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-- [Go](https://golang.org/) (1.20+)
-- [Ollama](https://ollama.ai/) with `gemma4:latest` model
-
-### Installation
 
 ```bash
 git clone https://github.com/MotimotiNotch/project-atra.git
@@ -41,32 +66,10 @@ cd project-atra/atra
 go build -o atra
 ```
 
-### Running the Slime Experiment
-
-1.  **Compile the Mindset**:
-
-    ```bash
-    ./atra compile -file ../experiments/slime_morphology/mindset.atra -out ../output/mindset.json
-    ```
-
-2.  **Start the Observer Runtime**:
-
-    ```bash
-    ./atra run -soul ../logs/soul_log.md
-    ```
-
-3.  **Run Long-term Evolution (100 steps)**:
-    ```bash
-    ./atra evolve -soul ../logs/evolution_soul.md
-    ```
-
 ## 📖 Theoretical Background
-
-For a deep dive into the architecture and the philosophy of "Identity as Motion," please refer to our Zenn series:
-
-- [Part 1: Identity as Phase Motion](Coming Soon)
-- [Part 2: MVA Architecture (Coming Soon)]
+- [Part 1: Identity as Phase Motion — Observation of 130 Turns](https://zenn.dev/MotimotiNotch/articles/project-atra-part1)
+- [Part 2: MVA Architecture — The Mechanics of Volatility (Coming Soon)]
 
 ---
-
-Created by **motimotinotch**
+*Developed by: MotimotiNotch*
+*Supported by: SAS (Self Arch Support)*
