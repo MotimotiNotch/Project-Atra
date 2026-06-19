@@ -1,5 +1,13 @@
 # Project-Atra: Semantic Dynamics & Attractor Observation
 
+> [!NOTE]
+> **先行研究「Atra（Associative Trace Architecture）」との混同防止に関する注記**
+> 本プロジェクト、および本記事で使用されている「Atra」は、高次元セマンティック空間におけるLLMとベクトルデータベースを用いた、意味の **「Attractor（アトラクタ：引き込み子）」** 操作を志向する個人研究プロジェクトであり、その名称は「Attractor」概念に由来しています。
+> 
+> 渡辺幸弘氏が提唱・公開されている、古典的アソシアトロン（連想メモリ）を物理的接続・シグナルダイナミクスとして実装する先行研究 **「Atra（Associative Trace Architecture）」** （先行公開： [cside-associatron](https://cside-associatron.blogspot.com/2026/05/atra.html) ）とは、名称の由来・工学的な手法および実装において完全に独立した別個のプロジェクトとなります。
+> 
+> 両プロジェクトには『自律性』や『主体性』に関する関心において一部共通して読めるテーマもありますが、名称の由来、設計思想、実装手法および研究目的は異なる独立したプロジェクトです。本記事は両者を同一視するものではありません。
+
 (日本語の解説は英語の後に続きます / Japanese description follows English)
 
 ## 📡 Concept: Identity as Phase Motion
