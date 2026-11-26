@@ -86,3 +86,7 @@ go build -o atra
 ---
 *Developed by: MotimotiNotch*
 *Supported by: SAS (Self Arch Support)*
+
+## 出し方
+
+配布物もデプロイ先も無い。手元で動かす研究用の実装。
